@@ -27,7 +27,7 @@ _NOTE: creating docker-network in optional. You can start both containers in a d
 
 Step 4: open mongo-express from browser
 
-    http://localhost:8081
+    http://ec2-ip-public:8081
 
 Step 5: create `user-account` _db_ and `users` _collection_ in mongo-express
 
@@ -38,7 +38,7 @@ Step 6: Start your nodejs application locally - go to `app` directory of project
     
 Step 7: Access you nodejs application UI from browser
 
-    http://localhost:3000
+    http://ec2-ip-public:3000
 
 ### With Docker Compose
 
@@ -61,7 +61,7 @@ Step 4: start node server
     
 Step 5: access the nodejs application from browser 
 
-    http://localhost:3000
+    http://ec2-ip-public:3000
 
 #### To build a docker image from the application
 
